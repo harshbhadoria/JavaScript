@@ -41,11 +41,21 @@ FullName = FName + LName
 
 n1 = n2 = n3 = 100
 
-console.log(n1);
-console.log(n1++);
-console.log(++n1);
-console.log(n1--);
-console.log(--n1);
+// console.log(n1);
+// console.log(n1++);
+// console.log(++n1);
+// console.log(n1--);
+// console.log(--n1);
 
 // 12-08-2024 -- To be Continue...
+
+
+// console.log("2" > "12");
+// console.log(3 > "12");
+
+console.log(91 == "a");
+console.log( "0" >= 0)
+
+console.log(43 < undefined);
+console.log();
 
