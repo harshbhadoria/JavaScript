@@ -53,9 +53,62 @@ n1 = n2 = n3 = 100
 // console.log("2" > "12");
 // console.log(3 > "12");
 
-console.log(91 == "a");
-console.log( "0" >= 0)
+// console.log(91 == "a");
+// console.log( "0" >= 0)
 
-console.log(43 < undefined);
-console.log();
+// console.log(43 < undefined);
+// console.log();
 
+// Datatypes In JS
+
+// Primitive Datatype
+   // 1. String
+   // 2. Number
+   // 3. Boolean
+   // 4. Null
+   // 5. Undefined
+   // 6. Symbols
+   // 7. BigInt
+
+   const num = 100
+   const Score = 2.4
+   const Name = "Harsh"
+   const Bool = true
+   const empty = null
+   const NoValue = undefined
+   const Symbols = Symbol('Something') 
+   const NewSymbols = Symbol('Something') 
+   const BigNum = 495834342105n
+
+    // console.log(Symbols == NewSymbols);
+    // console.log(typeof(BigNum));  
+   //  console.log(typeof(empty));  
+   //  console.table([num, Score, Name, Bool, empty, NoValue, Symbols]);
+   
+
+// Non-Primitive Datatype (Reference Type)
+   // 1. Array
+   // 2. Object
+   // 3. Function
+
+   const Arr1 = [["Abhi", "Kabhi", "Nahi", "Aata", "21"],["Abhi", "Kabhi", "Nahi", "Aata", "21"]]
+   // console.log(typeof Arr1);
+   // console.log(Arr1);
+
+   let myObj = {
+      LineName : "harsh",
+      age : 43,
+      city : "Delhi" 
+   }
+
+   // console.log(typeof myObj);
+   // console.log(myObj);
+   
+   const myFunc = function(){
+      console.log("Welcome In Death Loop");
+   }
+
+   console.log(typeof myFunc);
+   console.log( myFunc());
+   
+   
