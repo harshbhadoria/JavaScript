@@ -47,7 +47,7 @@ n1 = n2 = n3 = 100
 // console.log(n1--);
 // console.log(--n1);
 
-// 12-08-2024 -- To be Continue...
+// 12-08-2024 
 
 
 // console.log("2" > "12");
@@ -58,6 +58,8 @@ n1 = n2 = n3 = 100
 
 // console.log(43 < undefined);
 // console.log();
+
+// 14-08-2024 
 
 // Datatypes In JS
 
@@ -80,10 +82,10 @@ n1 = n2 = n3 = 100
    const NewSymbols = Symbol('Something') 
    const BigNum = 495834342105n
 
-    // console.log(Symbols == NewSymbols);
-    // console.log(typeof(BigNum));  
-   //  console.log(typeof(empty));  
-   //  console.table([num, Score, Name, Bool, empty, NoValue, Symbols]);
+   // console.log(Symbols == NewSymbols);
+   // console.log(typeof(BigNum));  
+   // console.log(typeof(empty));  
+   // console.table([num, Score, Name, Bool, empty, NoValue, Symbols]);
    
 
 // Non-Primitive Datatype (Reference Type)
@@ -108,7 +110,44 @@ n1 = n2 = n3 = 100
       console.log("Welcome In Death Loop");
    }
 
-   console.log(typeof myFunc);
-   console.log( myFunc());
+   // console.log(typeof myFunc);
+   // console.log( myFunc());
+
+// 15-08-2024 -- To be Continue...
+
+// Stack(Primitive types)  ----   Heap (Non-Primitive types)
+
+// Stack(Primitive types) Example
+
+   let Name1 = "Harsh"
+   let Name2 = Name1
+
+   // console.log(Name1);
+   // console.log(Name2);
+
+   Name1 = "Bhadoria"
+
+   // console.log(Name1);
+   // console.log(Name2);
+
+
+   // Heap (Non-Primitive types) Example
+
+   function swap(obj) {       
+      console.log("Number Befor swap Num1 =" ,obj.Num1 ,"Num2 =" , obj.Num2);
+      
+      temp = obj.Num1
+      obj.Num1 = obj.Num2
+      obj.Num2 = temp
+
+   console.log("Number After swap Num1 =" ,obj.Num1 ,"Num2 =" , obj.Num2);
+
+   }
+
+   let Num = {
+      Num1 : 5,
+      Num2 : 10
+   }
    
+   swap(Num)
    
