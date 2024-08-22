@@ -45,10 +45,26 @@ const user = [
         email : "raju@gmail.com"
     }
 ]
-console.log(user[2].email);
-console.log(Object.values(tinderUser));
-console.log(Object.values(user));
-console.log(Object.entries(tinderUser));
+// console.log(user[2].email);
+// console.log(Object.values(tinderUser));
+// console.log(Object.values(user));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isloggedIn'));
+// console.log(tinderUser.hasOwnProperty('isloggedIn'));
   
+
+const course = {
+    Cname : " Java in Hindi",
+    price : "999",
+    Cinstructor : "Harsh"
+}
+
+const {Cinstructor} = course
+
+console.log(Cinstructor);
+
+// {
+//     "Cname" : " Java in Hindi",
+//     "price" : "999",
+//     Cinstructor : "Harsh"
+// }
