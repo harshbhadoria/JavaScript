@@ -1,6 +1,6 @@
  const user = {
     username : "Harsh",
-    loginCount : 8,
+    loginCount : 8543,
     signedIn : true,
 
     getUserDetails : function (data) {
@@ -31,4 +31,4 @@ const userOne = new User("harsh","12",true)
 const userTwo = new User("RajuNaan",11,false)
 
 console.log(userOne.constructor)
-console.log(userTwo.constructor)
+// console.log(userTwo.constructor)
