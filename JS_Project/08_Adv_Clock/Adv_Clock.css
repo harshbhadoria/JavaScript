@@ -1,0 +1,36 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #282c34;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .clock-container {
+    text-align: center;
+    color: #61dafb;
+  }
+  
+  #clock {
+    font-size: 5rem;
+    margin-bottom: 20px;
+  }
+  
+  #toggle-format {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #toggle-format:hover {
+    background: #21a1f1;
+  }
+  
